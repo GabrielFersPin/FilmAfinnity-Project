@@ -1,3 +1,3 @@
-# Github-Portfolio
+# FilmAffinity - Proyect
 
-Projects that I've been working on, inside and outside od the university testing my skills.
+Proyecto para testar la habilidad de web scrapping en la página de FilmAffinty para determinar el/la mejor actor/actriz por genero.
