@@ -1,3 +1,4 @@
 # FilmAffinity - Project
 
-Proyecto para testar la habilidad de web scrapping en la página de FilmAffinty para determinar el/la mejor actor/actriz por genero.
+This project was made for test the web scrapping with BeautifulSoup
+The main goal with this project was to find the tootal Oscar candidate actors/actresses who have the most famous films by genre.
