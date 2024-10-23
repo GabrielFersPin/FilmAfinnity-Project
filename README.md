@@ -21,7 +21,7 @@ The primary goal of this project is to:
 - **Requests**: To fetch HTML content from FilmAffinity.
 
 ### Screenshots
-![Web scraping in action](Images/Screenshot.png)
+![Web scraping in action](images/Screenshot.png)
 *Figure 1: Example of data extraction process.*
 
 ### Results
