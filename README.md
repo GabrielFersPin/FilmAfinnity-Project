@@ -22,7 +22,7 @@ The primary goal of this project is to:
 
 ### Screenshots
 ![Web scraping in action](images/Screenshot.png)
-*Figure 1: Example of data extraction process.*
+*Figure 1: Data extraction process.*
 
 ### Results
 - A comprehensive list of Oscar-nominated actors and actresses.
