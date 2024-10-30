@@ -3,4 +3,5 @@ beautifulsoup4
 csv
 pandas
 statsmodels
+seaborn
 matplotlib.pyplot

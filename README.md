@@ -28,25 +28,33 @@ The primary goal of this project is to:
 
 - **Comprehensive List**: A comprehensive list of Oscar-nominated actors and actresses, along with their most iconic films categorized by genre.
   
-- **Nominations by Genre**: The analysis showed that the **action** genre received the highest number of nominations over the years, followed by **drama** and **comedy**.
+- **Nominations by Genre**: The analysis showed that the **drama** genre received the highest number of nominations over the years, followed by **action**, **comedy** and **horror**
 
   ![Nominations by Genre](images/nominations_by_genre.png)
   *Figure 2: Nominations by Genre over the Years*
 
-- **Trend Analysis**: A linear regression analysis was performed to identify trends in nominations by genre. The results indicated an increasing trend in nominations for the **action** genre, while the **horror** genre showed a decline in nominations.
+- **Trend Analysis**: A linear regression analysis was performed to identify trends in nominations by genre. The results indicated an increasing trend in nominations for the **drama** genre and **action**, while **horror** and **comedy** genre showed a decline in nominations.
 
-  ![Regression Analysis](images/regression_analysis.png)
+  ![Regression Analysis](images/regression.png)
   *Figure 3: Linear Regression of Nominations by Genre*
 
-- **Top Performers**: The analysis identified the top-performing movies based on the number of nominations. For instance, **"Gladiator"** received the most nominations with **2 nominations**, highlighting its impact in the action genre.
+- **Top Performers**: The analysis identified the top-performing movies based on the number of nominations. For instance, **"As Good As It Gets"** received the most nominations with **10 nominations**, and the actor with the most nominations is **Jack Nicholson** with 18 nominations.
 
-  | Movie Title | Year | Genre   | Nominations |
-  |-------------|------|---------|-------------|
-  | Gladiator   | 2000 | Action  | 2           |
+  | Movie Title         | Year | Genre  | Nominations |
+  |---------------------|------|--------|-------------|
+  | As Good As It Gets  | 1997 | Comedy | 10          |
+  | The Dark Knight     | 2008 | Action | 10          |
+
+  |     Actor      | Nominations |
+  |----------------|-------------|
+  | Jack Nicholson | 18          |
 
 
 ### Learnings
+
 This project provided hands-on experience with:
-- Web scraping using BeautifulSoup.
-- Data processing and cleaning.
-- Extracting meaningful insights from unstructured web data.
+- **Web Scraping**: Gained practical skills in web scraping using **BeautifulSoup**, understanding how to navigate HTML structures and extract relevant data.
+- **Data Processing and Cleaning**: Learned how to process and clean large datasets using **Pandas**, ensuring the data is ready for analysis.
+- **Statistical Analysis**: Developed a foundational understanding of statistical analysis techniques, including linear regression, to identify trends in data.
+- **Data Visualization**: Enhanced skills in visualizing data using libraries like **Matplotlib** and **Seaborn**, making it easier to interpret results and communicate findings effectively.
+- **Insight Extraction**: Gained insights into the relationships between film genres and Oscar nominations, helping to identify trends and patterns in the film industry.
