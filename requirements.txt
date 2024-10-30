@@ -5,3 +5,4 @@ pandas
 statsmodels
 seaborn
 matplotlib.pyplot
+streamlit
