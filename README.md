@@ -25,9 +25,25 @@ The primary goal of this project is to:
 *Figure 1: Data extraction process.*
 
 ### Results
-- A comprehensive list of Oscar-nominated actors and actresses.
-- Analysis of their most iconic films categorized by genre.
-- Insights into genre trends linked to Oscar nominations.
+
+- **Comprehensive List**: A comprehensive list of Oscar-nominated actors and actresses, along with their most iconic films categorized by genre.
+  
+- **Nominations by Genre**: The analysis showed that the **action** genre received the highest number of nominations over the years, followed by **drama** and **comedy**.
+
+  ![Nominations by Genre](images/nominations_by_genre.png)
+  *Figure 2: Nominations by Genre over the Years*
+
+- **Trend Analysis**: A linear regression analysis was performed to identify trends in nominations by genre. The results indicated an increasing trend in nominations for the **action** genre, while the **horror** genre showed a decline in nominations.
+
+  ![Regression Analysis](images/regression_analysis.png)
+  *Figure 3: Linear Regression of Nominations by Genre*
+
+- **Top Performers**: The analysis identified the top-performing movies based on the number of nominations. For instance, **"Gladiator"** received the most nominations with **2 nominations**, highlighting its impact in the action genre.
+
+  | Movie Title | Year | Genre   | Nominations |
+  |-------------|------|---------|-------------|
+  | Gladiator   | 2000 | Action  | 2           |
+
 
 ### Learnings
 This project provided hands-on experience with:
