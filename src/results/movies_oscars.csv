@@ -1,0 +1,104 @@
+,Unnamed: 0_x,title,year,genre,name,Unnamed: 0_y,nominations
+0,18,Gladiator,2000,action,Russell Crowe,186,1
+1,20,Gladiator,2000,action,Joaquin Phoenix,42,1
+2,63,Inception,2010,action,Leonardo DiCaprio,12,1
+3,71,Inception,2010,action,Marion Cotillard,10,1
+4,72,Inglourious Basterds,2009,action,Brad Pitt,148,1
+5,74,Inglourious Basterds,2009,action,Christoph Waltz,296,2
+6,87,Pirates of the Caribbean: The Curse of the Black Pearl,2003,action,Geoffrey Rush,258,1
+7,90,The Dark Knight,2008,action,Christian Bale,130,1
+8,92,The Dark Knight,2008,action,Heath Ledger,223,1
+9,96,The Dark Knight,2008,action,Michael Caine,280,2
+10,98,The Dark Knight,2008,action,Gary Oldman,256,1
+11,126,Men in Black (MIB),1997,action,Tommy Lee Jones,199,1
+12,128,Men in Black (MIB),1997,action,Will Smith,83,1
+13,144,The Departed,2006,action,Leonardo DiCaprio,12,1
+14,148,The Departed,2006,action,Jack Nicholson,312,3
+15,171,V for Vendetta,2005,action,Natalie Portman,125,1
+16,209,Indiana Jones and the Last Crusade,1989,action,Sean Connery,217,1
+17,240,X-Men,2000,action,Anna Paquin,162,1
+18,242,X-Men,2000,action,Halle Berry,226,1
+19,247,Indiana Jones and the Temple of Doom,1984,action,Ke Huy Quan,56,1
+20,254,Batman,1989,action,Jack Nicholson,312,3
+21,256,Batman,1989,action,Kim Basinger,18,1
+22,261,Batman Begins,2005,action,Christian Bale,130,1
+23,267,Batman Begins,2005,action,Cillian Murphy,91,1
+24,269,Batman Begins,2005,action,Michael Caine,280,2
+25,270,Forrest Gump,1994,comedy,Tom Hanks,278,2
+26,278,Forrest Gump,1994,comedy,Sally Field,275,2
+27,279,Life Is Beautiful,1997,comedy,Roberto Benigni,190,1
+28,288,American Beauty,1999,comedy,Kevin Spacey,295,2
+29,294,American Beauty,1999,comedy,Allison Janney,202,1
+30,299,The Lion King,1994,comedy,Jeremy Irons,50,1
+31,304,Toy Story,1995,comedy,Tom Hanks,278,2
+32,320,Inglourious Basterds,2009,comedy,Brad Pitt,148,1
+33,322,Inglourious Basterds,2009,comedy,Christoph Waltz,296,2
+34,351,Pirates of the Caribbean: The Curse of the Black Pearl,2003,comedy,Geoffrey Rush,258,1
+35,363,Up,2009,comedy,Christopher Plummer,129,1
+36,384,Men in Black (MIB),1997,comedy,Tommy Lee Jones,199,1
+37,386,Men in Black (MIB),1997,comedy,Will Smith,83,1
+38,397,Snatch,2000,comedy,Brad Pitt,148,1
+39,402,As Good As It Gets,1997,comedy,Jack Nicholson,312,3
+40,404,As Good As It Gets,1997,comedy,Helen Hunt,222,1
+41,408,As Good As It Gets,1997,comedy,Cuba Gooding Jr.,84,1
+42,418,Pretty Woman,1990,comedy,Julia Roberts,65,1
+43,445,The Big Lebowski,1998,comedy,Jeff Bridges,237,1
+44,449,The Big Lebowski,1998,comedy,Julianne Moore,55,1
+45,456,Home Alone,1990,comedy,Joe Pesci,41,1
+46,481,Toy Story 3,2010,comedy,Tom Hanks,278,2
+47,488,Toy Story 2,1999,comedy,Tom Hanks,278,2
+48,522,Forrest Gump,1994,drama,Tom Hanks,278,2
+49,530,Forrest Gump,1994,drama,Sally Field,275,2
+50,531,Life Is Beautiful,1997,drama,Roberto Benigni,190,1
+51,542,Fight Club,1999,drama,Brad Pitt,148,1
+52,548,Fight Club,1999,drama,Jared Leto,239,1
+53,549,Gladiator,2000,drama,Russell Crowe,186,1
+54,551,Gladiator,2000,drama,Joaquin Phoenix,42,1
+55,558,Titanic,1997,drama,Leonardo DiCaprio,12,1
+56,560,Titanic,1997,drama,Kate Winslet,59,1
+57,564,Titanic,1997,drama,Kathy Bates,58,1
+58,569,Schindler's List,1993,drama,Ben Kingsley,151,1
+59,576,American Beauty,1999,drama,Kevin Spacey,295,2
+60,582,American Beauty,1999,drama,Allison Janney,202,1
+61,585,The Shawshank Redemption,1994,drama,Tim Robbins,94,1
+62,587,The Shawshank Redemption,1994,drama,Morgan Freeman,126,1
+63,596,Million Dollar Baby,2004,drama,Hilary Swank,303,2
+64,598,Million Dollar Baby,2004,drama,Morgan Freeman,126,1
+65,614,The Lion King,1994,drama,Jeremy Irons,50,1
+66,637,The Dark Knight,2008,drama,Christian Bale,130,1
+67,639,The Dark Knight,2008,drama,Heath Ledger,223,1
+68,643,The Dark Knight,2008,drama,Michael Caine,280,2
+69,645,The Dark Knight,2008,drama,Gary Oldman,256,1
+70,664,The Pianist,2002,drama,Adrien Brody,105,1
+71,682,Mystic River,2003,drama,Sean Penn,271,2
+72,684,Mystic River,2003,drama,Tim Robbins,94,1
+73,690,Mystic River,2003,drama,Marcia Gay Harden,3,1
+74,691,The Departed,2006,drama,Leonardo DiCaprio,12,1
+75,695,The Departed,2006,drama,Jack Nicholson,312,3
+76,718,As Good As It Gets,1997,drama,Jack Nicholson,312,3
+77,720,As Good As It Gets,1997,drama,Helen Hunt,222,1
+78,724,As Good As It Gets,1997,drama,Cuba Gooding Jr.,84,1
+79,733,Big Fish,2003,drama,Jessica Lange,283,2
+80,745,Moulin Rouge,2001,drama,Nicole Kidman,123,1
+81,753,Moulin Rouge,2001,drama,Jim Broadbent,47,1
+82,763,The Curious Case of Benjamin Button,2008,drama,Brad Pitt,148,1
+83,765,The Curious Case of Benjamin Button,2008,drama,Cate Blanchett,292,2
+84,769,The Curious Case of Benjamin Button,2008,drama,Tilda Swinton,95,1
+85,781,Requiem for a Dream,2000,drama,Jared Leto,239,1
+86,783,Requiem for a Dream,2000,drama,Jennifer Connelly,54,1
+87,785,Requiem for a Dream,2000,drama,Ellen Burstyn,170,1
+88,790,The Silence of the Lambs,1991,horror,Jodie Foster,276,2
+89,792,The Silence of the Lambs,1991,horror,Anthony Hopkins,293,2
+90,808,The Others,2001,horror,Nicole Kidman,123,1
+91,817,The Shining,1980,horror,Jack Nicholson,312,3
+92,844,I Am Legend,2007,horror,Will Smith,83,1
+93,901,Bram Stoker's Dracula,1992,horror,Gary Oldman,256,1
+94,905,Bram Stoker's Dracula,1992,horror,Anthony Hopkins,293,2
+95,934,War of the Worlds,2005,horror,Tim Robbins,94,1
+96,937,28 Days Later,2002,horror,Cillian Murphy,91,1
+97,973,World War Z,2013,horror,Brad Pitt,148,1
+98,993,Interview With the Vampire,1994,horror,Brad Pitt,148,1
+99,1013,Zombieland,2009,horror,Emma Stone,281,2
+100,1018,American Psycho,2000,horror,Christian Bale,130,1
+101,1022,American Psycho,2000,horror,Jared Leto,239,1
+102,1027,From Dusk Till Dawn,1996,horror,George Clooney,264,1
