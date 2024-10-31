@@ -12,10 +12,12 @@ st.title("FilmAffinity Web Scraping Project")
 
 # Overview
 st.subheader("Overview")
-st.write("This project was developed to explore web scraping techniques...")
+st.write("This project was developed to extract data from a website and make a deep analysis.")
 
 # Display DataFrame
 st.subheader("Movies and Oscars Data")
+columns_to_drop = ['Unnamed: 0', 'Unnamed: 0_x', 'Unnamed: 0_y']  # Specify the columns you want to drop
+movies_oscars = movies_oscars.drop(columns=columns_to_drop)
 st.dataframe(movies_oscars)
 
 # Analysis Section
