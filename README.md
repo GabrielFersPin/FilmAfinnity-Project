@@ -61,3 +61,14 @@ This project provided hands-on experience with:
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/GabrielFersPin/FilmAffinity.git
+   cd FilmAffinity
+2. **Set up a virtual environment (optional but recommended)**:
+   ````bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+3. **Install the required packages**:
+   ````bash
+   pip install -r requirements.txt
+4. **Run the Streamlit app**:
+   ````bach
+   streamlit run app.py
