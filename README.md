@@ -57,6 +57,7 @@ This project provided hands-on experience with:
 - **Insight Extraction**: Gained insights into the relationships between film genres and Oscar nominations, helping to identify trends and patterns in the film industry.
 
 ### How to Use the Streamlit App
+[Streamlit Website](https://gabrielferspin-filmaffinity-app-9isec8.streamlit.app/)
 
 1. **Clone the Repository**:
    ```bash
