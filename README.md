@@ -19,6 +19,7 @@ The primary goal of this project is to:
 - **BeautifulSoup**: Web scraping library used to extract and parse data from HTML.
 - **Pandas**: For data manipulation and analysis.
 - **Requests**: To fetch HTML content from FilmAffinity.
+- **Streamlit**: For creating the interactive web application.
 
 ### Screenshots
 ![Web scraping in action](images/Screenshot.png)
@@ -58,3 +59,10 @@ This project provided hands-on experience with:
 - **Statistical Analysis**: Developed a foundational understanding of statistical analysis techniques, including linear regression, to identify trends in data.
 - **Data Visualization**: Enhanced skills in visualizing data using libraries like **Matplotlib** and **Seaborn**, making it easier to interpret results and communicate findings effectively.
 - **Insight Extraction**: Gained insights into the relationships between film genres and Oscar nominations, helping to identify trends and patterns in the film industry.
+
+### How to Use the Streamlit App
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/yourusername/your-repository.git
+   cd your-repository
