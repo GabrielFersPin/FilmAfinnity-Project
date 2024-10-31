@@ -60,4 +60,4 @@ This project provided hands-on experience with:
 
 1. **Clone the Repository**:
    ```bash
-   git clone [https://github.com/GabrielFersPin/FilmAfinnity-Project.git](https://github.com/GabrielFersPin/FilmAffinity.git)
+   git clone https://github.com/GabrielFersPin/FilmAffinity.git
