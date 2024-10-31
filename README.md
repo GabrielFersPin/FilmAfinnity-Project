@@ -32,7 +32,7 @@ The primary goal of this project is to:
 
 - **Trend Analysis**: A linear regression analysis was performed to identify trends in nominations by genre. The results indicated an increasing trend in nominations for the **drama** genre and **action**, while **horror** and **comedy** genre showed a decline in nominations.
 
-  ![Regression Analysis](images/prediction.png)
+  ![Regression Analysis](src/images/prediction.png)
   *Figure 3: Linear Regression of Nominations by Genre*
 
 - **Top Performers**: The analysis identified the top-performing movies based on the number of nominations. For instance, **"As Good As It Gets"** received the most nominations with **10 nominations**, and the actor with the most nominations is **Jack Nicholson** with 18 nominations.
