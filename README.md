@@ -22,7 +22,7 @@ The primary goal of this project is to:
 - **Streamlit**: For creating the interactive web application.
 
 ### Screenshots
-![Web scraping in action](images/Screenshot.png)
+![Web scraping in action](src/images/Screenshot.png)
 *Figure 1: Data extraction process.*
 
 ### Results
@@ -31,7 +31,7 @@ The primary goal of this project is to:
   
 - **Nominations by Genre**: The analysis showed that the **drama** genre received the highest number of nominations over the years, followed by **action**, **comedy** and **horror**
 
-  ![Nominations by Genre](images/nominations_by_genre.png)
+  ![Nominations by Genre](src/images/nominations_by_genre.png)
   *Figure 2: Nominations by Genre over the Years*
 
 - **Trend Analysis**: A linear regression analysis was performed to identify trends in nominations by genre. The results indicated an increasing trend in nominations for the **drama** genre and **action**, while **horror** and **comedy** genre showed a decline in nominations.
