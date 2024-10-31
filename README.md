@@ -21,10 +21,6 @@ The primary goal of this project is to:
 - **Requests**: To fetch HTML content from FilmAffinity.
 - **Streamlit**: For creating the interactive web application.
 
-### Screenshots
-![Web scraping in action](src/images/Screenshot.png)
-*Figure 1: Data extraction process.*
-
 ### Results
 
 - **Comprehensive List**: A comprehensive list of Oscar-nominated actors and actresses, along with their most iconic films categorized by genre.
@@ -36,7 +32,7 @@ The primary goal of this project is to:
 
 - **Trend Analysis**: A linear regression analysis was performed to identify trends in nominations by genre. The results indicated an increasing trend in nominations for the **drama** genre and **action**, while **horror** and **comedy** genre showed a decline in nominations.
 
-  ![Regression Analysis](images/regression.png)
+  ![Regression Analysis](images/prediction.png)
   *Figure 3: Linear Regression of Nominations by Genre*
 
 - **Top Performers**: The analysis identified the top-performing movies based on the number of nominations. For instance, **"As Good As It Gets"** received the most nominations with **10 nominations**, and the actor with the most nominations is **Jack Nicholson** with 18 nominations.
