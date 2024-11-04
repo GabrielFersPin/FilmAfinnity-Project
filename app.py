@@ -40,12 +40,21 @@ st.dataframe(
     column_config={"year": st.column_config.TextColumn("Year")},
 )
 
-# Movie Search
+import streamlit as st
+import pandas as pd
+
+# Sample DataFrame setup (replace this with your actual data loading)
+# movies_oscars = pd.read_csv("your_data.csv")
+
+# Title and search bar
 st.title("Movie Search")
-search_query = st.text_input("Search for a movie title")
+search_query = st.text_input("Search for a movie title", "")
+
+# Confirm the search query input
+st.write("Search Query:", search_query)  # This line helps check if the query is captured
 
 # Filter the DataFrame based on the search query
-if search_query:
+if search_query.strip():  # Checks if there's any non-whitespace input
     movie_filtered = movies_oscars[movies_oscars["title"].str.contains(search_query, case=False, na=False)]
 else:
     movie_filtered = movies_oscars
@@ -57,7 +66,6 @@ movie_filtered = movie_filtered.drop(columns=columns_to_drop, errors='ignore')
 # Display Filtered Movies and Oscars Data
 st.subheader("Movies and Oscars Data")
 st.dataframe(movie_filtered)
-
 
 # Analysis Section
 st.subheader("Top Performers")
