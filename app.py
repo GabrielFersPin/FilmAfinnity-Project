@@ -40,12 +40,22 @@ st.dataframe(
     column_config={"year": st.column_config.TextColumn("Year")},
 )
 
+# Movie search
+st.title("Movie Search")
+search_query = st.text_input("Search for a movie title")
+
+# Filter the DataFrame based on the search query
+if search_query:
+    movie_filtered = movies_oscars[movies_oscars["title"].str.contains(search_query, case=False, na=False)]
+else:
+    movie_filtered = movies_oscars
+
 
 # Display Movies and Oscars Data
 st.subheader("Movies and Oscars Data")
 columns_to_drop = ['Unnamed: 0', 'Unnamed: 0_x', 'Unnamed: 0_y']  # Specify the columns you want to drop
-movies_oscars = movies_oscars.drop(columns=columns_to_drop)
-st.dataframe(movies_oscars)
+movies_filtered = movies_oscars.drop(columns=columns_to_drop)
+st.dataframe(movies_filtered)
 
 # Analysis Section
 st.subheader("Top Performers")
