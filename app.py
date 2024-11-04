@@ -11,13 +11,16 @@ movies = pd.read_csv('src/results/movies.csv')
 oscars = pd.read_csv('src/results/oscars.csv')
 movies_oscars = pd.read_csv('src/results/movies_oscars.csv')
 
+columns_to_drop = ['Unnamed: 0', 'Unnamed: 0_x', 'Unnamed: 0_y']  # Specify the columns you want to drop
+movies_oscars = movies_oscars.drop(columns=columns_to_drop, errors='ignore')
+
 # Title
-st.set_page_config(page_title="FilmAffinity Web Scraping Project", page_icon="🎬")
-st.title("🎬 FilmAffinity Web Scraping Project")
+st.set_page_config(page_title="Movie Selection", page_icon="🎬")
+st.title("🎬 Find Your Movie")
 
 # Overview
 st.subheader("Overview")
-st.write("This project was developed to extract data from [FilmAffinty website](https://www.filmaffinity.com/us/topgen.php?genres=%2BHO&chv=0&orderby=rc&movietype=movie%7C&country=&fromyear=1980&toyear=2023&ratingcount=2&runtimemin=0&runtimemax=4) and make a further analysis.")
+st.write("This app was developed to make a movie selection based on the 30 best movies of each genre from [FilmAffinty website](https://www.filmaffinity.com/us/topgen.php?genres=%2BHO&chv=0&orderby=rc&movietype=movie%7C&country=&fromyear=1980&toyear=2023&ratingcount=2&runtimemin=0&runtimemax=4) and make a further analysis.")
 
 movies = movies.reset_index(drop=True)
 # Show a multiselect widget with the genres using `st.multiselect`.
@@ -40,12 +43,6 @@ st.dataframe(
     column_config={"year": st.column_config.TextColumn("Year")},
 )
 
-import streamlit as st
-import pandas as pd
-
-# Sample DataFrame setup (replace this with your actual data loading)
-# movies_oscars = pd.read_csv("your_data.csv")
-
 # Title and search bar
 st.title("Movie Search")
 search_query = st.text_input("Search for a movie title", "")
@@ -59,25 +56,35 @@ if search_query.strip():  # Checks if there's any non-whitespace input
 else:
     movie_filtered = movies_oscars
 
-# Drop unnecessary columns
-columns_to_drop = ['Unnamed: 0', 'Unnamed: 0_x', 'Unnamed: 0_y']  # Specify the columns you want to drop
-movie_filtered = movie_filtered.drop(columns=columns_to_drop, errors='ignore')
-
 # Display Filtered Movies and Oscars Data
 st.subheader("Movies and Oscars Data")
 st.dataframe(movie_filtered)
 
-# Analysis Section
-st.subheader("Top Performers")
+# Top performers search bar
+st.title("Top performers Search")
+search_query = st.text_input("Search for a actor/actress", "")
+
+# Confirm the search query input
+st.write("Search Query:", search_query)  # This line helps check if the query is captured
+
 top_performers = movies_oscars.groupby('name')['nominations'].sum().reset_index()
 top_performers = top_performers.sort_values(by='nominations', ascending=False)
-st.write(top_performers)
+
+# Filter the DataFrame based on the search query
+if search_query.strip():  # Checks if there's any non-whitespace input
+    filter_performers = top_performers[top_performers["name"].str.contains(search_query, case=False, na=False)]
+else:
+    filter_performers = top_performers
+    
+# Analysis Section
+st.subheader("Top Performer")
+st.write(filter_performers)
 
 #Movies with the most nominations
 st.subheader('Movies with most nominations')
 movie_nominations = movies_oscars.groupby('title')['nominations'].sum().reset_index()
 movie_nominations = movie_nominations.sort_values(by='nominations', ascending=False)
-top_movie = movie_nominations.head(3)
+top_movie = movie_nominations.head(5)
 st.write(top_movie)
 
 #Display the graph of how the nominations changed over the years
