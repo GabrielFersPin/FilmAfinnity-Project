@@ -87,6 +87,11 @@ movie_nominations = movie_nominations.sort_values(by='nominations', ascending=Fa
 top_movie = movie_nominations.head(5)
 st.write(top_movie)
 
+#Genres with most nominations
+st.subheader('Genres with most nominations')
+most_nominations = movies_oscars.groupby("genre")["nominations"].sum().sort_values(ascending=False)
+st.write(most_nominations)
+
 #Display the graph of how the nominations changed over the years
 st.subheader("How nominations changed over the years")
 nominations_by_genre = movies_oscars.groupby(['year', 'genre'])['nominations'].sum().reset_index()
