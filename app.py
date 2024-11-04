@@ -55,7 +55,7 @@ if search_query.strip():  # Checks if there's any non-whitespace input
     movie_filtered = movies_oscars[movies_oscars["title"].str.contains(search_query, case=False, na=False)]
 else:
     movie_filtered = movies_oscars
-
+    
 # Display Filtered Movies and Oscars Data
 st.subheader("Movies and Oscars Data")
 st.dataframe(movie_filtered)
